@@ -1,30 +1,60 @@
+/*General style*/
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  overflow: auto;
   background: white;
+  font-family: sans-serif;
 }
 .primary-container,
 .head-section {
   width: 100%;
-  max-width: 1400px;
 }
 
-.nav-section {
+/*NAV section*/
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 70px;
-  max-height: 100%;
   text-align: center;
 }
-.nav-section #nav1 {
-  float:left;
+.nav-section {
+  display: inline-block;
+  padding: 1%;
 }
-
+#nav1 {
+  float:left;
+  margin-left: 10%;
+  text-align: center;
+}
+#nav1 .nav1-item {
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  margin-left: 10%;
+}
+#nav1 .nav1-item img {
+  width: 20%;
+  height: 100%;
+}
+#nav1 .nav1-item span {
+  color: #66757F;
+}
 #nav2 span {
   color: turquoise;
+  font-size: 2vw;
 }
-
-.nav-section #nav3 {
+#nav3 {
   float:right;
+}
+/*End NAV*/
+
+/*HEADER section*/
+#header {
+
+}
+.to-purple {
+
 }
